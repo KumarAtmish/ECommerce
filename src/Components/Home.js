@@ -6,7 +6,8 @@ export default function Home(){
     // console.warn()
     return (
         <>
-            <h1 className="text-center mt-3">All Items</h1>
+            {/* <h1 className="text-center mt-3">All Items</h1> */}
+            {/* <Header /> */}
             <section className="py-4 container">
                 <div className="row justify-content-center">
                     {Data.productData.map((item, index) =>{

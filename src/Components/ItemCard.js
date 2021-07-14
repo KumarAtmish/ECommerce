@@ -6,9 +6,9 @@ export default function ItemCard(props){
     const { addItem } = useCart();
 
     return (
-        <div className="col-11 col-md-6 col-lg-3 mx-0 mb-4">
+        <div className="col-11 col-md-6 col-lg-3 mx-0 mb-4" style={{height: "53vh"}}>
             <div className="card p-0 overflow-hidden h-100 shaddow">
-               <img src={props.img} className="card-img-top img-fluid" alt="..." />
+               <img style={{height: "55%"}} src={props.img} className="card-img-top img-fluid" alt="..." />
                <div className="card-body text-center">
                  <h5 className="card-title">{props.title}</h5>
                  <h5 className="card-text"> $ {props.price}</h5>

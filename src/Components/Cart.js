@@ -15,7 +15,7 @@ export default function Cart(){
      if(isEmpty) return <h1 className="text-center">Your Cart Is Empty</h1>
 
     return (
-        <section className="py-2 container">
+        <div className="py-2 container">
             <div className="row justify-content-center">
                 <div className="col-12">
                    <h5> Cart ({totalUniqueItems}) total Item: ({totalItems})</h5>
@@ -51,6 +51,6 @@ export default function Cart(){
                      <button className="btn btn-primary">Buy Now</button>
                 </div>
             </div>
-        </section>
+        </div>
     )
 }
